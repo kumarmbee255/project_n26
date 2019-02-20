@@ -20,4 +20,4 @@
         
         $A.enqueueAction(getProductInfo); 
 	}
-})
+}) 
