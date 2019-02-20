@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is used to hold the survey link and its informations</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>N26_letterhead</letterhead>
+    <name>Survey Email English</name>
+    <style>freeForm</style>
+    <subject>Survey Link</subject>
+    <textOnly>Hey {!Contact.FirstName},
+
+Please fill out our survey: http://n26.com/survey/{!Contact.Id}
+
+Thanks,
+Customer Care Team, N26</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
