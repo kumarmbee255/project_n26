@@ -1,5 +1,6 @@
 # project_n26
 Project includes components related to N26 salesforce assignments
+
 Assignment #1: 
 1) New Batch job have been created "SendSurveyEmailToCustomersBatch" which queries the contact records based on the "Survey date" at contact level and sends a survey link with information via email.
 
